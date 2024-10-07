@@ -27,25 +27,28 @@ html{
 
 .logo{
     margin-top: 20px;
+    margin-right: 350px;
     height: 100px;
     width: auto;
 }
 
 .navigation{
-    margin: auto;
     display: flex;
-    justify-content: center;
+    margin-top: 20px;
     list-style-type: none;
     text-transform: uppercase;
+    text-align: center;
+}
+.navigation li{
+    display: flex;
+    margin: 0px 50px 0px 0px;
 }
 .navigation a{
-    padding: 10px 0px;
     color: white;
     text-decoration: none;
     border-bottom: 2px solid transparent;
 }
 .navigation a:hover{
-    padding: 10px 0px;
     text-decoration: none;
     border-bottom: 2px solid #e67e22;
 }
@@ -53,9 +56,10 @@ html{
 .hero-text-box{
     width: 1400px;
     position: absolute;
+    margin: 0px 140px;
     top: 50%;
     left: 50%;
-    transform: (-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 .hero-text-box h1{
     color: white;
@@ -78,6 +82,7 @@ html{
 .btn-full{
     background-color: #e67e22;
     border: 1px solid #e67e22;
+    margin-right: 20px;
     color: #fff;
 }
 .btn-ghost{
