@@ -229,3 +229,6 @@ html{
 .button-app:visited{
     border: 0;
 }
+.city-gallery{
+    display: flex;
+}
