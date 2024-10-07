@@ -215,7 +215,7 @@ html{
     display: flex;
     justify-content: center;
     margin: 0px 300px;
-    padding: 65px;
+    padding: 65px 0px 30px;
 }
 .apps{
     margin-top: 90px;
