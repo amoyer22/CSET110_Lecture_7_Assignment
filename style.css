@@ -231,19 +231,17 @@ html{
 }
 
 
-.cities{
-    max-width: 1140px;
-    padding: 30px 0px;
-    margin: 0 auto;
+.current-cities{
+    padding: 60px 0px;
 }
-.cities h2{
+.heading h2{
     font-weight: 300;
     font-size: 200%;
     word-spacing: 4px;
     text-transform: uppercase;
     text-align: center;
 }
-.cities h2:after{
+.heading h2:after{
     display: block;
     height: 2px;
     width: 100px;
@@ -252,6 +250,28 @@ html{
     margin: auto;
     margin-top: 30px;
 }
-.city-gallery{
+.city-list{
+    margin-top: 30px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.city{
+    flex: 250px;
+    max-width: 250px;
+}
+.city img{
+    width: 100%;
+    height: auto;
+}
+.city h3{
+    padding: 5px;
+    font-weight: 300;
+    word-spacing: 4px;
+    text-transform: uppercase;
+}
+.city-feature{
+    display: flex;
+    padding: 5px;
 }
