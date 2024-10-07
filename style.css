@@ -169,3 +169,24 @@ html{
     opacity: 1;
     transform: scale(1.05);
 }
+
+
+.steps{
+    margin-top: 100px;
+}
+.title h2{
+    font-weight: 300;
+    font-size: 200%;
+    word-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.title h2:after{
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #e67e22;
+    content: " ";
+    margin: auto;
+    margin-top: 30px;
+}
