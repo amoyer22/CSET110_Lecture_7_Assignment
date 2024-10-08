@@ -295,6 +295,8 @@ html{
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/back-customers.jpg");
     color: white;
     padding: 80px 30px;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .section-title{
     font-weight: 300;
@@ -344,4 +346,73 @@ blockquote:before{
     width: 10%;
     margin-right: 10px;
     border-radius: 50%;
+}
+
+
+.sign-up{
+    background-color: #F4F4F4;
+    padding: 80px 30px;
+}
+.sign-up .title{
+    font-weight: 300;
+    font-size: 200%;
+    word-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.sign-up .title:after{
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #e67e22;
+    content: " ";
+    margin: auto;
+    margin-top: 30px;
+}
+.subscriptions{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.sub-container{
+    width: 350px;
+    margin-right: 40px;
+    background-color: #FCFCFC;
+    border-bottom: 1px solid #e8e8e8;
+    box-shadow: 0 2px 2px #cac5c5;
+}
+.pricing{
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 15px;
+}
+.pricing h3{
+    padding: 15px 15px 0px 15px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.pricing p strong{
+    padding: 0px 5px;
+    font-size: 300%;
+    font-weight: 200;
+}
+.pricing p{
+    padding: 0px 15px;
+    margin-top: 5px;
+}
+.sub-features{
+    border-bottom: 1px solid #e8e8e8;
+}
+.sub-feature{
+    margin: 20px 0px 20px 0px;
+    padding: 0px 20px;
+    display: flex;
+}
+.check-mark{
+    margin-right: 10px;
+    color: #e67e22;
+}
+.sub-button{
+    text-align: center;
+    padding: 15px;
 }
