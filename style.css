@@ -294,6 +294,7 @@ html{
 .testimonials{
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/back-customers.jpg");
     color: white;
+    padding: 80px 30px;
 }
 .section-title{
     font-weight: 300;
@@ -325,4 +326,22 @@ blockquote:before{
     position: absolute;
     top: -5px;
     left: -5px;
+}
+.customer-row{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1400px;
+    margin-top: 10px;
+}
+.customer-column{
+    margin-right: 100px;
+}
+.customer-cite{
+    display: flex;
+    margin-top: 30px;
+}
+.customer-cite img{
+    width: 10%;
+    margin-right: 10px;
+    border-radius: 50%;
 }
