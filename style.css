@@ -416,3 +416,8 @@ blockquote:before{
     text-align: center;
     padding: 15px;
 }
+
+
+.input-row{
+    display: flex;
+}
