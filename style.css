@@ -496,3 +496,59 @@ input[type=submit]:hover, input[type=submit]:active{
 .space2{
     margin-bottom: 10px;
 }
+
+
+footer{
+    background-color: #333;
+    color: #888;
+    padding: 50px;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+.main-links{
+    display: flex;
+}
+.main-links li{
+    display: flex;
+    margin-right: 30px;
+    list-style-type: none;
+}
+.main-links a{
+    text-decoration: none;
+    color: #888;
+}
+.social-links{
+    display: flex;
+}
+.social-links li{
+    display: flex;
+    margin-right: 30px;
+    list-style-type: none;
+    font-size: 130%;
+}
+.copyright{
+    margin-top: 30px;
+    text-align: center;
+}
+.link:hover{
+    color: #ddd;
+    transition: color 0.2s;
+}
+.facebook:hover{
+    color: #3B5998;
+    transition: color 0.2s;
+}
+.twitter:hover{
+    color: #55ACEE;
+    transition: color 0.2s;
+}
+.googleplus:hover{
+    color: #DD4B39;
+    transition: color 0.2s;
+}
+.insta:hover{
+    color: #BC2A8D;
+    transition: color 0.2s;
+}
