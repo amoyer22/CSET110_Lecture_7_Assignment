@@ -331,7 +331,7 @@ blockquote:before{
     display: flex;
     margin: 0 auto;
     max-width: 1400px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .customer-column{
     margin-right: 100px;
