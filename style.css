@@ -275,3 +275,17 @@ html{
     display: flex;
     padding: 5px;
 }
+.feature-icon{
+    color: #e67e22;
+    margin-right: 15px;
+}
+#twitter:hover{
+    color: #55ACEE;
+}
+.twitter-link{
+    color: #e67e22;
+}
+.twitter-link:hover{
+    text-decoration: none;
+    color: #555;
+}
